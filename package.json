@@ -9,8 +9,10 @@
     "dev": "ts-node-dev ./src/index.ts"
   },
   "dependencies": {
+    "@prisma/client": "^6.5.0",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "prisma": "^6.5.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.1",
