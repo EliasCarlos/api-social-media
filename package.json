@@ -1,0 +1,20 @@
+{
+  "name": "api-social-media",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Elias Carlos",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  }
+}
