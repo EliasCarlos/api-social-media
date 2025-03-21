@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
 import { usersService } from "../../services";
 
-export const create = async (req: Request, res: Response) => {
+export const Create = async (req: Request, res: Response) => {
   const { name, email, password, passwordConfirmation } = req.body;
 
-  const user = await usersService.create({
+  const user = await usersService.Create({
     name,
     email,
     password,
